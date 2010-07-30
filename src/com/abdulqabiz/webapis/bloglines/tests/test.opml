@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head>
+    <title>Bloglines Subscriptions</title>
+    <dateCreated>Mon, 20 Sep 2004 03:17:38 GMT</dateCreated>
+    <ownerName>AccountEmailAddress</ownerName>
+</head>
+<body>
+  <outline title="Folder Name">
+    <outline title="Friends" BloglinesSubId="5" BloglinesIgnore="0">
+        <outline title="Example Blog 1" htmlUrl="http://example.com" type="rss" xmlUrl="http://example.com/rss.xml"  BloglinesSubId="2563871" BloglinesUnread="0" BloglinesIgnore="1" />
+        <outline title="Example Blog 2" htmlUrl="http://example.com/two" type="rss" xmlUrl="http://example.com/two/rss.xml"  BloglinesSubId="145448" BloglinesUnread="10" BloglinesIgnore="0" />
+    </outline>
+    <outline title="Example Blog 3" htmlUrl="http://example.com/three" type="rss" xmlUrl="http://example.com/three/rss.xml"  BloglinesSubId="145448" BloglinesUnread="2" BloglinesIgnore="0"/>
+</outline>
+</body>
+</opml>

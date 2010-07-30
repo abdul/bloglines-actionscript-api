@@ -1,0 +1,25 @@
+<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml" creationComplete="opmlService.send()">
+	<mx:Script>
+		<![CDATA[
+			
+			import flash.events.*;
+			import flash.net.*;
+			import mx.controls.Alert;
+			import BloglinesOPMLParser;
+
+			function process(str)
+			{
+				Alert.show(str);
+				var opmlParser = new BloglinesOPMLParser();
+				var feeds = opmlParser.parse(str);
+				Alert.show(feeds.length.toString());
+				Alert.show(opmlParser.opmlData.title);
+			}
+
+			   
+			
+		]]>
+
+	</mx:Script>
+	<mx:HTTPService id="opmlService" useProxy="false" url="test.opml" resultFormat="text" result="process(opmlService.result)"/>
+</mx:Application>
